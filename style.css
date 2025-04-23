@@ -38,8 +38,9 @@
   --gutter-small: 2rem;
   --gutter-medium: 2.5rem;
   --gutter-large: 3rem;
-  --gutter-x-large: 6rem;
+  --gutter-x-large: 4rem;
   --gutter-huge: 12rem;
+  --gutter-x-double: 12rem;
 
   --scroll-padding: 4.375rem;
   --radius: 85px;
@@ -576,9 +577,9 @@ body.light .header {
     max-inline-size: 100px;
   }
 
-  .logo-group:last-child {
+  /* .logo-group:last-child {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 400px) {
@@ -619,7 +620,14 @@ body.light .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 4px;
 }
+
+/* .flexWork-box {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+} */
 
 @media (max-width: 1045px) {
   .work-boxes {
@@ -649,7 +657,7 @@ body.light .logo {
 
 .work-img,
 .work-textbox {
-  flex-basis: 49%;
+  flex-basis: 54%;
 }
 
 .work-img {
