@@ -5,19 +5,12 @@ An open-source, user-friendly, responsive, and accessible portfolio template for
 Give a star ⭐ if you find it useful. [Visit site &rarr;](https://opensource-portfolio.netlify.app/)
 
 ![Portfolio Template Gif](assets/images/portfolio-template.gif)
-
-## Useful resources
-
-Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarhassan12) channel where we cover creating template like this from scratch using HTML, CSS and JavaScript also don't forget to star 🌟 the [css-tips-tricks](https://github.com/devsyedmohsin/css-tips-tricks) that has already reached 180+ stars.
-
 ## Table of Contents
-
 1. [Features](#key-features)
 1. [Customization](#customizing-the-template)
 1. [Deploying the Site](#deploying-the-site)
 
 ## Features
-
 - Fully Mobile responsive.
 - Supports light/dark theme.
 - Built with a11y in mind.
@@ -56,16 +49,17 @@ You will find a file named `index.html` Open it and follow the guidance inscribe
 
 ```html
 <!-- Update with your name -->
-<title>Syed Mohsin's Portfolio</title>
+<title>Aakash's Portfolio</title>
 ```
 
 ```html
 <div class="header-textbox">
   <!-- Replace with your name & job title -->
-  <h1 class="h1">Hi, I'm Syed Mohsin Frontend Web Developer</h1>
-
+   <h1 class="h1">Aakash - Full Stack Web Developer</h1>
+  
   <!-- Add a small introductory paragraph about yourself -->
-  <p class="header-text">A frontend software engineer and interface designer</p>
+  <p class="h1">Hi, I'm Aakash — a Full-Stack Web Developer blending AI-powered solutions, prompt engineering, and UI/UX precision to build scalable, high-performance products under tight deadlines. With hands-on experience at some of India’s top companies through internships, and currently collaborating with global clients across industries, I deliver clean code, smart design, and real results.
+  </p>
 </div>
 ```
 
