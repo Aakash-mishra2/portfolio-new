@@ -483,13 +483,13 @@ main {
 body.dark .header {
   background-image: url("assets/images/hero-bg.webp");
   background-color: rgba(0, 0, 0, 0.6); /* fallback/overlay */
-  filter: brightness(1.1); /* 1.0 is default, increase >1 for brightness */
+  filter: brightness(1.05); /* 1.0 is default, increase >1 for brightness */
 }
 
 body.light .header {
   background-image: url("assets/images/hero-bg-light.webp");
   background-color: rgba(255, 255, 255, 0.6);
-  filter: brightness(1.1);
+  filter: brightness(1.05);
 }
 
 .header-textbox {
@@ -504,7 +504,7 @@ body.light .header {
 
 .header-text {
   font-size: var(--text-large);
-  font-weight: 400;
+  font-weight: 600;
   max-inline-size: 745px;
   margin-block-start: var(--gutter-micro);
   margin-block-end: var(--gutter-medium);
