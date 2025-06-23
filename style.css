@@ -472,7 +472,7 @@ main {
 /* --------------------------------- */
 
 .header {
-  min-block-size: calc(100vh + var(--biographyWidth));
+  min-block-size: calc(90vh + var(--biographyWidth));
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
